@@ -1,0 +1,50 @@
+﻿
+
+.ball {
+        background-color: #006699;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        border-radius: 50%;                   
+
+}
+
+#area {
+    width: 1000px;
+    height: 500px;
+    left: 0px;
+    top: 0px;
+    background-color: #0099cc;
+}
+
+#leftverticalboundary {
+    background-color: #6699ff;
+    width: 10px;
+    height: 500px;
+    position: absolute;
+}
+
+#rightverticalboundary {
+    background-color : #6699ff;
+    width: 10px;
+    height: 500px;
+    left: 1000px;
+    position: absolute;
+}
+
+#tophorizontalboundary {
+    background-color: #6699ff;
+    width: 1000px;
+    height: 10px;
+    position: absolute;
+}
+
+#bottomhorizontalboundary {
+    background-color : #6699ff;
+    width: 1000px;
+    height: 10px;
+    top: 500px;
+    position: absolute;
+}
